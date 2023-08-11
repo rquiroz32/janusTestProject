@@ -11,7 +11,8 @@ class ProductResultsPage{
        this.greenPan = Selector('div[data-asin = "B07Y8Z89L4"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-section > .a-spacing-small > .s-title-instructions-style > h2.a-size-mini > a.a-link-normal')
        
        */
-        this.huyFongSrirachaImage = Selector('div[data-asin="B000HQN22A"] > .sg-col-inner > .s-widget-container > .s-card-container > div.a-section >div.s-product-image-container> span[data-component-type="s-product-image" ] >a.a-link-normal >div.a-section > img.s-image')  //> span.a-size-base-plus        
+        this.huyFongSriracha = Selector('div[data-asin="B000HQN22A"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-section > .a-spacing-small > .s-title-instructions-style > h2.a-size-mini > a.a-link-normal > span.a-size-base-plus')  //
+        this.huyFongSrirachaImage = Selector('div[data-asin="B000HQN22A"] > .sg-col-inner > .s-widget-container > .s-card-container > div.a-section >div.s-product-image-container> span[data-component-type="s-product-image" ] >a.a-link-normal >div.a-section > img.s-image')
         this.greenPanImage = Selector('div[data-asin="B07Y8Z89L4"] > .sg-col-inner > .s-widget-container > .s-card-container > div.a-section >div.s-product-image-container> span[data-component-type="s-product-image" ] >a.a-link-normal >div.a-section > img.s-image')
     }
     

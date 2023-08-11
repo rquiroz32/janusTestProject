@@ -18,7 +18,7 @@ class amazonHomePage{
         
     }
 
-    async searchByText(text){
+    async searchByString(text){
         await t
         .typeText(this.searchInput, text)
         .pressKey('enter')        
