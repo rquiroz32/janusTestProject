@@ -1,0 +1,22 @@
+{
+  "name": "janusproject",
+  "version": "1.0.0",
+  "description": "This is a series of automated tests for Amazon's website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rquiroz32/janusProject.git"
+  },
+  "author": "Rich Quiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rquiroz32/janusProject/issues"
+  },
+  "homepage": "https://github.com/rquiroz32/janusProject#readme",
+  "dependencies": {
+    "testcafe": "^3.1.0"
+  }
+}
